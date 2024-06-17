@@ -1,7 +1,7 @@
 {
-  "name": "react-native-swift-components",
+  "name": "react-native-ios-swipe-actions",
   "version": "0.1.0",
-  "description": "This is a native swift component library created by some awesome developer.",
+  "description": "Native IOS Swipe actions 🚀",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {

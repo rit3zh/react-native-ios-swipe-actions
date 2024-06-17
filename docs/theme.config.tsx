@@ -65,7 +65,7 @@ const config: DocsThemeConfig = {
       </div>
     ),
   },
-  logoLink: "https://i.ibb.co/YDJ0jgw/Black-and-White-Collection-5-3.png",
+  logoLink: "https://github.com/rit3zh/react-native-ios-swipe-actions",
   navigation: {
     prev: true,
     next: true,

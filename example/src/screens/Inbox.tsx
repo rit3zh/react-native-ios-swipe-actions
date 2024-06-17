@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { StyleSheet, SafeAreaView, ScrollView } from "react-native";
-import { List, Section } from "react-native-swift-components";
+import { List, Section } from "react-native-ios-swipe-actions";
 import { Text } from "swiftui-react-native";
 import { EMAILS, SwipeActionsOptions } from "@/constants/index";
 

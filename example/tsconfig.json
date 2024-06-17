@@ -7,10 +7,10 @@
       "@/*": [
         "./src/*"
       ],
-      "react-native-swift-components": [
+      "react-native-ios-swipe-actions": [
         "../src/index"
       ],
-      "react-native-swift-components/*": [
+      "react-native-ios-swipe-actions/*": [
         "../src/*"
       ]
     }
