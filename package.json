@@ -1,7 +1,7 @@
 {
   "name": "react-native-ios-swipe-actions",
   "version": "0.1.0",
-  "description": "Native IOS Swipe actions 🚀",
+  "description": "Native IOS Swipe actions with configgurable options 🚀",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
@@ -19,8 +19,14 @@
   "keywords": [
     "react-native",
     "expo",
-    "react-native-swift-components",
-    "ReactNativeSwiftComponents"
+    "react-native-ios-components",
+    "react-native-swipe",
+    "react-native-swipeable",
+    "react-native-ios",
+    "ios",
+    "react-native-drawer",
+    "react-native-swipe-actions",
+    "react-native-actions"
   ],
   "repository": "https://github.com/rit3zh/react-native-swift-components",
   "bugs": {

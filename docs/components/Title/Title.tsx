@@ -3,10 +3,8 @@ import { LuAlignHorizontalJustifyCenter, LuComponent } from "react-icons/lu";
 import { CiSaveDown1 } from "react-icons/ci";
 import { MdOutlineNotes } from "react-icons/md";
 import { VscSymbolInterface } from "react-icons/vsc";
-import { SiPowerpages } from "react-icons/si";
 import { IoMdList } from "react-icons/io";
 import { FaDivide } from "react-icons/fa6";
-import { SiTypescript } from "react-icons/si";
 
 interface Props {
   title: string;

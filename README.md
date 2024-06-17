@@ -1,35 +1,47 @@
-# react-native-ios-swipe-actions
+# React Native iOS Swipe Actions
 
-This is a native swift component library created by some awesome developer.
+##### 🚀 Easily add native **iOS** swipe actions to your iOS app with this package. Perfect for features like swipe-to-delete and swipe-to-edit.
 
-# API documentation
+<p align="center">
+  <a href="https://github.com/rit3zh/react-native-ios-swipe-actions" target="_blank">
+    <img src="https://img.shields.io/badge/Made_with-React_native-blue" alt="Build Status">
+  </a>
+  <a href="https://github.com/rit3zh/react-native-ios-swipe-actions" target="_blank">
+    <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" alt="Build Status">
+  </a>
+  <a href="https://github.com/rit3zh/react-native-ios-swipe-actions" target="_blank">
+    <img src="https://img.shields.io/badge/License-Boost_1.0-lightblue.svg" alt="Codecov" />
+  </a>
+  <a href="https://github.com/rit3zh/react-native-ios-swipe-actions" target="_blank">
+    <img src="https://img.shields.io/badge/License-ISC-blue.svg" alt="License">
+  </a>
+  <a href="https://github.com/rit3zh/react-native-ios-swipe-actions" target="_blank">
+    <img src="https://badgen.net/github/release/Naereen/Strapdown.js" alt="Release">
+  </a>
+  <a href="https://github.com/rit3zh/react-native-ios-swipe-actions" target="_blank">
+    <img src="https://img.shields.io/badge/Runs%20with%20Expo-4630EB.svg?style=flat-square&logo=EXPO&labelColor=f3f3f3&logoColor=000" alt="Runs with Expo">
+  </a>
+</p>
 
-- [Documentation for the main branch](https://github.com/expo/expo/blob/main/docs/pages/versions/unversioned/sdk/react-native-ios-swipe-actions.md)
-- [Documentation for the latest stable release](https://docs.expo.dev/versions/latest/sdk/react-native-ios-swipe-actions/)
+<p align="center">
+  <a href="https://github.com/rit3zh/react-native-ios-swipe-actions" target="_blank">
+    <img src="http://forthebadge.com/images/badges/built-with-love.svg" alt="Built with Love"/>
+  </a>
+</p>
 
-# Installation in managed Expo projects
+## Features
 
-For [managed](https://docs.expo.dev/archive/managed-vs-bare/) Expo projects, please follow the installation instructions in the [API documentation for the latest stable release](#api-documentation). If you follow the link and there is no documentation available then this library is not yet usable within managed projects &mdash; it is likely to be included in an upcoming Expo SDK release.
+- 🛠️ Native iOS Destructive mode
+- 📋 Native iOS List View
+- 🗂️ Native iOS Section View
+- ⚡ Fully 60 FPS
+- 🚀 Blazingly Fast
+- 📦 Types included
 
-# Installation in bare React Native projects
+## Getting Started
 
-For bare React Native projects, you must ensure that you have [installed and configured the `expo` package](https://docs.expo.dev/bare/installing-expo-modules/) before continuing.
+Visit the [Documentation website.](https://swipe-actions-docs.vercel.app)
 
-### Add the package to your npm dependencies
+## Licenese
 
-```
-npm install react-native-ios-swipe-actions
-```
-
-### Configure for iOS
-
-Run `npx pod-install` after installing the npm package.
-
-
-### Configure for Android
-
-
-
-# Contributing
-
-Contributions are very welcome! Please refer to guidelines described in the [contributing guide]( https://github.com/expo/expo#contributing).
+MIT
