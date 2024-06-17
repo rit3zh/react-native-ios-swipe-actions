@@ -38,12 +38,13 @@ const config: DocsThemeConfig = {
   ),
 
   project: {
-    link: "https://github.com/shuding/nextra-docs-template",
+    link: "https://github.com/rit3zh",
   },
   chat: {
-    link: "https://discord.com",
+    link: "http://discordapp.com/users/755101874268536893",
   },
-  docsRepositoryBase: "https://github.com/shuding/nextra-docs-template",
+  docsRepositoryBase:
+    "https://github.com/rit3zh/react-native-ios-swipe-actions",
 
   // banner: { dismissible: true, key: "banner_", text: "" },
   footer: {

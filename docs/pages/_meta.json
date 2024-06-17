@@ -4,10 +4,16 @@
   "Usage": "Usage",
   "Components": "Components",
 
-  "about": {
+  "github": {
+    "title": "Github",
+    "type": "page",
+    "href": "https://github.com/rit3zh/actions",
+    "newWindow": true
+  },
+  "example": {
     "title": "Example",
     "type": "page",
-    "href": "https://example.com/contact",
+    "href": "https://github.com/rit3zh/actions/tree/main/example",
     "newWindow": true
   }
 }
