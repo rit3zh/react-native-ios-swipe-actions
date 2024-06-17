@@ -19,7 +19,6 @@ export const Title: React.FC<Props> = ({
   type,
   route,
 }: Props): React.JSX.Element => {
-  console.log(route);
   return (
     <div
       className="container"
