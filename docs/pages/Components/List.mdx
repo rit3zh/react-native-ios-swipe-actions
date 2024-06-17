@@ -1,0 +1,50 @@
+## List
+
+> **List**\<`T`\>(`__namedParameters`): `Element`
+
+## Type Parameters
+
+• **T**
+
+## Parameters
+
+| Parameter           | Type                                        | Description                       |
+| :------------------ | :------------------------------------------ | :-------------------------------- |
+| `__namedParameters` | [`ListProps`](../type-aliases/ListProps.md) | Properties to configure the list. |
+
+import { FaCode } from "react-icons/fa6";
+
+<details>
+<summary>
+<FaCode />
+<p style={{ marginLeft: 10 }}>Example</p>
+</summary>
+
+```tsx
+<List>
+  <Text>Hello!</Text>
+</List>
+```
+
+</details>
+
+## Props
+
+| prop        | description  | type        | required | default   |
+| ----------- | ------------ | ----------- | -------- | --------- |
+| `children`  | List content | `ReactNode` | no       | `null`    |
+| `listStyle` | List Style   | `string`    | no       | `grouped` |
+
+List inherits all [View Modifiers](../Typings/Modifiers.md) as props.
+
+## Returns
+
+| Type      | Description                                   |
+| :-------- | :-------------------------------------------- |
+| `Element` | React element rendered by the List component. |
+
+## Source
+
+| File          | Line |
+| :------------ | ---: |
+| List/List.tsx |   11 |

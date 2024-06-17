@@ -1,0 +1,13 @@
+{
+  "index": "Welcome",
+  "Installation": "Installation",
+  "Usage": "Usage",
+  "Components": "Components",
+
+  "about": {
+    "title": "Example",
+    "type": "page",
+    "href": "https://example.com/contact",
+    "newWindow": true
+  }
+}

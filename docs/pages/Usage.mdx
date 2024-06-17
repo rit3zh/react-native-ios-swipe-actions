@@ -1,0 +1,117 @@
+# Usage
+
+import { Steps } from "nextra/components";
+import { MdInstallDesktop } from "react-icons/md";
+import { VscRuby } from "react-icons/vsc";
+import { FaWandMagicSparkles } from "react-icons/fa6";
+
+<Steps>
+### Step 1
+ <div style={{
+        display: "flex",
+        flexDirection: "row",
+        alignItems: "center",
+        marginTop:10
+}}>
+
+<MdInstallDesktop color="#c5c4c4" size={18} style={{ marginRight: 10 }} />
+
+<h1 >Installing the package.</h1>
+</div>
+```sh npm2yarn
+npm i react-native-ios-swipe-actions
+```
+
+### Step 2
+
+<div
+  style={{
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    marginTop: 10,
+  }}
+>
+  <VscRuby color="#c5c4c4" size={18} style={{ marginRight: 10 }} />
+  <h1>Navigating inside the `ios` folder & Installing `pods`.</h1>
+</div>
+
+```sh
+cd ios && pod install
+```
+
+### Step 3
+
+<div
+  style={{
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    marginTop: 10,
+  }}
+>
+  <FaWandMagicSparkles color="#c5c4c4" size={18} style={{ marginRight: 10 }} />
+  <h1>Using the package</h1>
+</div>
+</Steps>
+
+## Example
+
+```tsx
+import { Text, SafeAreaView, StyleSheet } from "react-native";
+import { List, Section, NativeListProps } from "react-native-ios-swipe-actions";
+
+const App = () => {
+  const SwipeActionsOptions: NativeListProps = {
+    leadingFullSwipeEnabled: true,
+    leadingFullSwipeDestructive: false,
+    leadingSwipeActions: [
+      {
+        title: "Wave",
+        icon: "hand.wave.fill",
+        tint: "#e391f1",
+      },
+    ],
+    trailingFullSwipeDestructive: true,
+    trailingFullSwipeEnabled: true,
+    trailingSwipeActions: [
+      {
+        title: "Bye",
+        icon: "heart.fill",
+        tint: "#bf5bf2",
+      },
+    ],
+  };
+
+const onActionClick = (index: number, title?: string) => (
+    /** Do something.*/
+)
+
+  return (
+    <SafeAreaView style={styles.container}>
+      <List {...SwipeActionsOptions} onActionClick={onActionClick}>
+        <Section>
+          <Text style={styles.text}>Hello swipe me!</Text>
+        </Section>
+      </List>
+    </SafeAreaView>
+  );
+};
+
+export default App;
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#000",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  text: {
+    color: "white",
+    fontSize: 16.5,
+  },
+});
+```
+
+>

@@ -1,0 +1,43 @@
+{
+  "name": "react-native-swift-components",
+  "version": "0.1.0",
+  "description": "This is a native swift component library created by some awesome developer.",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "docs": "typedoc",
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module",
+    "open:ios": "xed example/ios",
+    "open:android": "open -a \"Android Studio\" example/android"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "react-native-swift-components",
+    "ReactNativeSwiftComponents"
+  ],
+  "repository": "https://github.com/rit3zh/react-native-swift-components",
+  "bugs": {
+    "url": "https://github.com/rit3zh/react-native-swift-components/issues"
+  },
+  "author": "rit3zh <thisismyn07@gmail.com> (https://github.com/rit3zh)",
+  "license": "MIT",
+  "homepage": "https://github.com/rit3zh/react-native-swift-components#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "expo-module-scripts": "^3.5.2",
+    "expo-modules-core": "^1.12.14",
+    "typedoc-plugin-markdown": "^4.0.3"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}

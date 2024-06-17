@@ -1,0 +1,34 @@
+# Installation
+
+### Install the package
+
+import { Callout } from "nextra/components";
+
+<Callout type="info" emoji="ℹ️">
+  This library relies on Expo Modules Code, and thus requires Expo to be
+  installed.
+</Callout>
+
+```sh npm2yarn
+npm i react-native-ios-swipe-actions
+```
+
+### Prebuilding & Running
+
+```bash
+$ npx expo prebuild -p ios
+```
+
+```bash
+$ npx expo run:ios
+```
+
+<Callout type="warning" emoji="💡">
+  Important
+</Callout>
+
+This library is built on top of [swiftui-react-native](https://github.com/andrew-levy/swiftui-react-native). To access additional SwiftUI components, please ensure that you have the swiftui-react-native library installed.
+
+```sh npm2yarn
+npm i swiftui-react-native
+```

@@ -1,0 +1,53 @@
+## Section
+
+> **Section**\<`T`\>(`__namedParameters`): `Element`
+
+## Type Parameters
+
+• **T**
+
+## Parameters
+
+| Parameter           | Type                                        | Description                       |
+| :------------------ | :------------------------------------------ | :-------------------------------- |
+| `__namedParameters` | [`ListProps`](../type-aliases/ListProps.md) | Properties to configure the list. |
+
+import { FaCode } from "react-icons/fa6";
+
+<details>
+<summary>
+<FaCode />
+<p style={{ marginLeft: 10 }}>Example</p>
+</summary>
+
+```tsx
+<List>
+  <Section header="Cool Header">
+    <Text>Hello!</Text>
+  </Section>
+</List>
+```
+
+</details>
+
+## Props
+
+| prop       | description    | type        | required | default     |
+| ---------- | -------------- | ----------- | -------- | ----------- |
+| `children` | List content   | `ReactNode` | no       | `null`      |
+| `header`   | Section header | `string`    | no       | `undefined` |
+| `footer`   | Section footer | `string`    | no       | `undefined` |
+
+List inherits all [View Modifiers](../Typings/Modifiers.md) as props.
+
+## Returns
+
+| Type      | Description                                    |
+| :-------- | :--------------------------------------------- |
+| `Element` | React element created by the Section function. |
+
+## Source
+
+| File                | Line |
+| :------------------ | ---: |
+| Section/Section.tsx |   11 |
