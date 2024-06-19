@@ -1,7 +1,7 @@
 {
   "name": "react-native-ios-swipe-actions",
   "version": "0.1.0",
-  "description": "Native IOS Swipe actions with configgurable options 🚀",
+  "description": "Native IOS Swipe actions with configurable options 🚀",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
@@ -28,13 +28,13 @@
     "react-native-swipe-actions",
     "react-native-actions"
   ],
-  "repository": "https://github.com/rit3zh/react-native-swift-components",
+  "repository": "https://github.com/rit3zh/react-native-ios-swipe-actions",
   "bugs": {
-    "url": "https://github.com/rit3zh/react-native-swift-components/issues"
+    "url": "https://github.com/rit3zh/react-native-ios-swipe-actions/issues"
   },
   "author": "rit3zh <thisismyn07@gmail.com> (https://github.com/rit3zh)",
   "license": "MIT",
-  "homepage": "https://github.com/rit3zh/react-native-swift-components#readme",
+  "homepage": "https://swipe-actions-docs.vercel.app/",
   "devDependencies": {
     "@types/react": "^18.0.25",
     "expo-module-scripts": "^3.5.2",
