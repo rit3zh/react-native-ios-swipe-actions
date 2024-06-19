@@ -1,6 +1,6 @@
 {
   "name": "react-native-ios-swipe-actions",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Native IOS Swipe actions with configurable options 🚀",
   "main": "build/index.js",
   "types": "build/index.d.ts",
