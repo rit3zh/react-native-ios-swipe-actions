@@ -1,6 +1,6 @@
 {
   "platforms": ["ios"],
   "ios": {
-    "modules": ["SwipeListModule", "SwipeSectionModule"]
+    "modules": ["SwipeListModule", "SwipeSectionModule", "SegmentControlModule"]
   }
 }

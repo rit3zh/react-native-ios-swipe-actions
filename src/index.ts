@@ -1,12 +1,12 @@
 export * from "./List/List";
-export * from "./Section/Section";
+// export * from "./Section/Section";
 export * from "./List/types";
-export * from "./Section/types";
-export * from "./utils/modifiers";
+// export * from "./Section/types";
+// export * from "./utils/modifiers";
 // TO-DO
 
 // export * from "./EditableList/EditableList";
-// export * from "./SegmentControl/SegmentControl";
+export * from "./SegmentControl/SegmentControl";
 // export * from "./hooks/useBinding";
 // export * from "./Image/Image";
 // export * from "./DatePicker/DatePicker";

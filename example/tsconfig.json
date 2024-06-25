@@ -4,9 +4,12 @@
     "jsx": "react-jsx",
     "strict": true,
     "paths": {
-      "@/*": [
-        "./src/*"
+      "react-native-ios-swipe-actions": [
+        "../src/index"
       ],
+      "react-native-ios-swipe-actions/*": [
+        "../src/*"
+      ]
     }
   }
 }
