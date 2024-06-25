@@ -6,6 +6,7 @@
 
 __mocks__
 __tests__
+backup/
 
 /babel.config.js
 /android/src/androidTest/
