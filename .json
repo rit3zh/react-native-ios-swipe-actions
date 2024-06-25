@@ -5,5 +5,7 @@
     "description": "Native IOS Swipe actions with configurable options 🚀"
   },
 
-  {}
+  {
+    "module": ["SwipeSectionModule", "SegmentControlModule"]
+  }
 ]
