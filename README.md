@@ -33,15 +33,24 @@
 
 - 🛠️ Native iOS Destructive mode
 - 📋 Native iOS List View
-- 🗂️ Native iOS Section View
 - ⚡ Fully 60 FPS
 - 🚀 Blazingly Fast
 - 📦 Types included
+
+[!IMPORTANT]
+
+> Important information.
+
+## What's New
+
+- 🗑️ Removed section to make it more simple and easy
+- 🛠️ Fixed the toolbar bug (top & bottom blur)
+- 📉 Decreased package size
 
 ## Getting Started
 
 Visit the [Documentation website.](https://swipe-actions-docs.vercel.app)
 
-## Licenese
+## License
 
 MIT

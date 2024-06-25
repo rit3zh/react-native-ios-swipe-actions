@@ -7,7 +7,7 @@
 __mocks__
 __tests__
 backup/
-
+docs/
 /babel.config.js
 /android/src/androidTest/
 /android/src/test/
