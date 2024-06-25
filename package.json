@@ -26,7 +26,13 @@
     "ios",
     "react-native-drawer",
     "react-native-swipe-actions",
-    "react-native-actions"
+    "react-native-actions",
+    "react-native-swift",
+    "swiftui",
+    "react-native-ui",
+    "react-native-listview",
+    "react-native-module",
+    "react-native-table-view"
   ],
   "repository": "https://github.com/rit3zh/react-native-ios-swipe-actions",
   "bugs": {

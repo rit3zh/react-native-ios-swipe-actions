@@ -37,9 +37,6 @@
 - 🚀 Blazingly Fast
 - 📦 Types included
 
-> [!IMPORTANT]  
->  information necessary for users.
-
 ## What's New
 
 - 🗑️ Removed section to make it more simple and easy
