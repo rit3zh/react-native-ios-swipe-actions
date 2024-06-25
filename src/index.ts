@@ -6,7 +6,7 @@ export * from "./List/types";
 // TO-DO
 
 // export * from "./EditableList/EditableList";
-export * from "./SegmentControl/SegmentControl";
+// export * from "./SegmentControl/SegmentControl";
 // export * from "./hooks/useBinding";
 // export * from "./Image/Image";
 // export * from "./DatePicker/DatePicker";
