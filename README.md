@@ -37,9 +37,8 @@
 - 🚀 Blazingly Fast
 - 📦 Types included
 
-[!IMPORTANT]
-
-> Important information.
+> [!IMPORTANT]  
+>  information necessary for users.
 
 ## What's New
 
